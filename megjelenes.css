@@ -1,0 +1,61 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.kartya {
+    flex-direction: column;
+    display: flex;
+    flex: 0 1 250px;
+    max-width: 300px;
+    border: 1px solid rgba(89, 89, 180, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+
+
+
+}
+.kartya p{
+        margin: 5px;
+}
+
+.kartya img {
+    width: 100%;
+    height: auto;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.gomb{
+    padding: 5px 15px;
+    border: 1px rgba(89, 89, 180, 0.5) solid;
+    border-radius: 25px;
+    flex-wrap: wrap;
+}
+.szures, .rendezes, #atlag{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(89, 89, 180);
+
+
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(89, 89, 180);
+    border-bottom: 4px solid rgb(89, 89, 180);
+    padding-bottom: 15px;
+}
+h2{
+    color: rgb(89, 89, 180);
+    font-size: 30px;
+    margin: 3px;
+}
+#atlag{
+    margin: 20px;
+}
