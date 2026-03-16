@@ -34,28 +34,37 @@ article{
     border: 1px rgba(89, 89, 180, 0.5) solid;
     border-radius: 25px;
     flex-wrap: wrap;
+    color: rgb(89, 89, 180);
 }
 .szures, .rendezes, #atlag{
     display: flex;
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
+
+
+
+}
+.kartya h2{
     color: rgb(89, 89, 180);
-
-
 }
 h1{
     text-align: center;
     font-size: 70px;
     color: rgb(89, 89, 180);
     border-bottom: 4px solid rgb(89, 89, 180);
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    font-family: cursive;
 }
 h2{
-    color: rgb(89, 89, 180);
-    font-size: 30px;
+    font-size: 25x;
     margin: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #atlag{
     margin: 20px;
+}
+p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
